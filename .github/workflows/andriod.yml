@@ -30,7 +30,7 @@ jobs:
         run: yarn install
 
       - name: Run Unit Test
-        run: ./gradlew test
+        run: chmod +x ./gradlew test
 
       ## cache Gradle dependencies and wrapper to reduce build time
       - name: Cache Gradle Wrapper
