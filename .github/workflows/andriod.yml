@@ -47,4 +47,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gradle-caches-
       - name: Make Gradlew Executable
-        run: cd android && chmod +x ./gradlew
+        run: chmod +x gradlew
